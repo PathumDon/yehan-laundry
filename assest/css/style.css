@@ -1,0 +1,260 @@
+.logo{
+
+    height: 50px;
+}
+
+.hero{
+
+    background-color:#0890F1 ;
+    height: 620px;
+}
+.btns{
+    margin-top: 5rem;
+}
+
+
+.btn-message{
+background-color: #FFD06D;
+margin-right: 1rem;
+border: 3px solid #FFD06D;
+
+}
+
+.btn-callnow{
+    border: 3px solid #fff;
+    color: #fff;
+    
+
+}
+
+.btn i{
+    padding-right: 0.5rem;
+}
+.hero-img-sec{
+padding-top: 100px;
+}
+
+.hero-circle{
+    content: "";
+    height: 30rem;
+    width: 30rem;
+    background-color: #90E0EF;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.hero-circle img{
+    margin-top: -4rem;
+}
+
+.why-us-icon{
+
+    padding: 20px;
+    background-color: #FFD06D;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.about-us-wrapper{
+    background-color: #CAF0F8;
+}
+
+.about-us-circle{
+    content: "";
+    height: 350px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.about-us-img{
+        margin-top: -60px;
+        /* margin-left: 25%; */
+        justify-content: center;
+
+}
+
+.img-place-holder1{
+    height: 200px;
+    width: 100%;
+    background: url(/assest/img/dry-cleaning-img.jpg);
+    background-size: cover;
+    margin: auto;
+
+}
+
+.img-place-holder2{
+    height: 200px;
+    width: 100%;
+    background: url(/assest/img/steam-press-img.jpg);
+    background-size: cover;
+    margin: auto;
+
+}
+
+.img-place-holder3{
+    height: 200px;
+    width: 100%;
+    background: url(/assest/img/curtain-img.jpg);
+    background-size: cover;
+    margin: auto;
+
+}
+
+.img-place-holder4{
+    height: 200px;
+    width: 100%;
+    background: url(/assest/img/wedding-dress-img.jpg);
+    background-size: cover;
+    margin: auto;
+
+}
+
+
+@media (max-width: 400px) {
+
+.hero-circle{
+    content: "";
+    height: 250px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.hero-circle img{
+    margin-top: -73px;
+    margin-left: -40px;
+}
+
+.btns{
+    margin-top: 2rem;
+}
+
+}
+.com-laundry-service{
+    margin-top: ;
+}
+.com-laundry-serv-img{
+    height: 420px;
+    background: url(/assest/img/comm-laundry-img.jpg);
+    background-size: cover;
+}
+
+.com-laundry-serv-text{
+    background-color: #2FCCC0 ;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.com-laundry-serv-text h2{
+    padding-bottom: 1.5rem;
+}
+
+.com-laundry-serv-text ul{
+    padding: 0;
+    padding-bottom: 1.5rem;
+} 
+
+.com-laundry-serv-text ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}  
+
+.com-laundry-serv-text ul li i{
+    padding-right: 1rem;
+}  
+
+.btn-comm-message{
+border: 3px solid #fff;
+border-radius: 0;
+color: #fff;
+margin-right: 1rem;
+}
+
+.btn-comm-callnow{
+    border: 3px solid #fff;
+    border-radius: 0;
+    color: #2FCCC0;
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+
+    .hero-circle{
+        content: "";
+        height: 250px;
+        width: 250px;
+        background-color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .hero-circle img{
+        margin-top: -73px;
+        margin-left: -40px;
+    }
+    
+    .btns{
+        margin-top: 2rem;
+    }
+    
+    }
+    .com-laundry-service{
+        margin-top: ;
+    }
+    .com-laundry-serv-img{
+        height: 420px;
+        background: url(/assest/img/comm-laundry-img.jpg);
+        background-size: cover;
+    }
+    
+    .com-laundry-serv-text{
+        background-color: #2FCCC0 ;
+        padding-left: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .com-laundry-serv-text h2{
+        padding-bottom: 1.5rem;
+    }
+    
+    .com-laundry-serv-text ul{
+        padding: 0;
+        padding-bottom: 1.5rem;
+    } 
+    
+    .com-laundry-serv-text ul li{
+        list-style: none;
+        line-height: 2.5rem;
+    }  
+    
+    .com-laundry-serv-text ul li i{
+        padding-right: 1rem;
+    }  
+    
+    .btn-comm-message{
+    border: 3px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    margin-right: 1rem;
+    }
+    
+    .btn-comm-callnow{
+        border: 3px solid #fff;
+        border-radius: 0;
+        color: #2FCCC0;
+        background-color: #fff;
+    }
