@@ -82,7 +82,7 @@ padding-top: 100px;
 .img-place-holder1{
     height: 200px;
     width: 100%;
-    background: url(assest/img/dry-cleaning-img.jpg);
+    background: url(/assest/img/dry-cleaning-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -91,7 +91,7 @@ padding-top: 100px;
 .img-place-holder2{
     height: 200px;
     width: 100%;
-    background: url(assest/img/steam-press-img.jpg);
+    background: url(/assest/img/steam-press-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -100,7 +100,7 @@ padding-top: 100px;
 .img-place-holder3{
     height: 200px;
     width: 100%;
-    background: url(assest/img/curtain-img.jpg);
+    background: url(/assest/img/curtain-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -109,7 +109,7 @@ padding-top: 100px;
 .img-place-holder4{
     height: 200px;
     width: 100%;
-    background: url(assest/img/wedding-dress-img.jpg);
+    background: url(/assest/img/wedding-dress-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -144,7 +144,7 @@ padding-top: 100px;
 }
 .com-laundry-serv-img{
     height: 420px;
-    background: url(assest/img/comm-laundry-img.jpg);
+    background: url(/assest/img/comm-laundry-img.jpg);
     background-size: cover;
 }
 
@@ -258,3 +258,92 @@ margin-right: 1rem;
         color: #2FCCC0;
         background-color: #fff;
     }
+
+    .testimonial{
+        background-color: #F3F3F3;
+
+
+    }
+
+    .review-card{
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 8px 8px 8px 8px;
+        width: 30%;
+        margin-bottom: 4rem;
+    }
+
+    .review-card img{
+        border-radius: 50%;
+        height: 100px;
+    }
+
+    .review-star .checked{
+        color: #FFD06D;
+    }
+
+    .testimonial .row{
+        grid-gap: 20px !important;
+
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    #map {
+        height: 100%; /* The height is 400 pixels */
+        width: 100%; /* The width is the width of the web page */
+      }
+.contact-us-wraper{
+    background-color: #FFD06D;
+    padding-bottom: 3rem;
+}
+.contact-form{
+    background-color: #fff;
+}
+.form{
+margin: auto;
+width: 60%;
+}
+
+.btn-send-message{
+    background-color: #FFD06D;
+    color: #000;
+    padding: 0.5 rem 0;
+    width: 100%;
+}
+
+.footer-wrapper h4{
+margin-bottom: 1rem;
+}
+
+.footer-wrapper ul{
+
+padding: 0;
+
+}
+
+.footer-wrapper ul li{
+    
+    list-style: none;
+    padding: 0.3rem 0;
+
+
+
+}
+
+.footer-wrapper i{
+    color: #0890F1;
+    padding-right: 1rem;
+}
+
+.footer-wrapper a{
+text-decoration: none;
+color: #000;
+}
+.footer-social-icon{
+    font-size: 2rem;
+}
+
+.footer-social-icon .fa-brands:hover{
+    color: #FFD06D;
+}
