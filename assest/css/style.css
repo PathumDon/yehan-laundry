@@ -338,7 +338,7 @@ color: #000;
     }
     .com-laundry-serv-img{
         height: 420px;
-        background: url(/assest/img/comm-laundry-img.jpg);
+        background: url(assest/img/comm-laundry-img.jpg);
         background-size: cover;
     }
 }
