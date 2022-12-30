@@ -3,13 +3,27 @@
     height: 50px;
 }
 
+.navbar a{
+text-decoration: none;
+color: #666;
+}
 .hero{
 
     background-color:#0890F1 ;
     height: 620px;
 }
+.hero h1{
+    font-size: 3rem;
+}
 .btns{
     margin-top: 5rem;
+}
+.navbar li{
+    font-weight: 500;
+}
+
+.navbar li a:hover{
+    border-bottom: #FFD06D solid 2px;
 }
 
 
@@ -20,8 +34,18 @@ border: 3px solid #FFD06D;
 
 }
 
+.btn-message:hover{
+    background-color: rgb(12, 67, 149);
+    color: #fff;
+}
+
 .btn-callnow{
     border: 3px solid #fff;
+    color: #fff;
+}
+
+.btn-callnow:hover{
+    background-color: rgb(12, 67, 149);
     color: #fff;
 }
 
@@ -45,7 +69,7 @@ padding-top: 100px;
 }
 
 .hero-circle img{
-    margin-top: -4rem;
+    margin-top: -4.3rem;
 }
 
 .why-us-icon{
@@ -85,6 +109,7 @@ padding-top: 100px;
     background-size: cover;
     margin: auto;
 
+
 }
 
 .img-place-holder2{
@@ -123,6 +148,13 @@ padding-top: 100px;
     background-size: cover;
 }
 
+.our-service-items{
+padding-top: 20px;
+}
+.our-service-items:hover{
+border: 1px solid #FFD06D;
+}
+
 .com-laundry-serv-text{
     background-color: #2FCCC0 ;
     padding-left: 80px;
@@ -147,6 +179,8 @@ padding-top: 100px;
 .com-laundry-serv-text ul li i{
     padding-right: 1rem;
 }  
+
+
 
 .btn-comm-message{
 border: 3px solid #fff;
@@ -210,7 +244,7 @@ margin-right: 1rem;
     background-color: #fff;
     border-radius: 8px 8px 8px 8px;
     width: 30%;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .review-card img{
@@ -285,41 +319,58 @@ color: #000;
     color: #FFD06D;
 }
 
-@media (max-width: 768px) {
-
-    .hero-circle{
-        content: "";
-        height: 250px;
-        width: 250px;
-        background-color: #fff;
-        border-radius: 50%;
-        text-align: center;
-        margin: auto;
-        margin-top: 30px;
-    }
-    
-    .hero-circle img{
-        margin-top: -73px;
-        margin-left: -40px;
-    }
-    
-    .btns{
-        margin-top: 2rem;
-    }
-    
-    
-    .com-laundry-service{
-        
-    }
-    .com-laundry-serv-img{
-        height: 420px;
-        background: url(..img/comm-laundry-img.jpg);
-        background-size: cover;
-    }
+.section-text{
+    color: #0890F1;
 }
 
-@media (max-width: 400px) {
+.footer-end{
+    height: 4rem;
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+}
 
+@media (max-width: 768px) {
+
+    .hero h1{
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .hero-img-sec {
+        padding-top: 4rem;
+    }
+
+    .hero-circle{
+        content: "";
+        height: 250px;
+        width: 250px;
+        background-color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .hero-circle img{
+        margin-top: -73px;
+        margin-left: -40px;
+    }
+    
+    .btns{
+        margin-top: 1rem;
+    }
+
+    
+    
+}
+
+@media (max-width: 576px) {
+
+    .hero h1{
+        font-size: 2rem;
+        padding: 1.5rem 0;
+    }
     .hero-circle{
         content: "";
         height: 250px;
@@ -339,4 +390,27 @@ color: #000;
     .btns{
         margin-top: 2rem;
     }
+
+
+.hero-img-sec {
+    padding-top: 4rem;
+}
+
+.why-us-items{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.why-us-icon {
+    border-radius: 50%;
+}
+
+
+
 }    
+
