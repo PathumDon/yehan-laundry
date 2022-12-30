@@ -81,7 +81,7 @@ padding-top: 100px;
 .img-place-holder1{
     height: 200px;
     width: 100%;
-    background: url(/assest/img/dry-cleaning-img.jpg);
+    background: url(../img/dry-cleaning-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -90,7 +90,7 @@ padding-top: 100px;
 .img-place-holder2{
     height: 200px;
     width: 100%;
-    background: url(/assest/img/steam-press-img.jpg);
+    background: url(../img/steam-press-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -99,7 +99,7 @@ padding-top: 100px;
 .img-place-holder3{
     height: 200px;
     width: 100%;
-    background: url(/assest/img/curtain-img.jpg);
+    background: url(../img/curtain-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -108,7 +108,7 @@ padding-top: 100px;
 .img-place-holder4{
     height: 200px;
     width: 100%;
-    background: url(/assest/img/wedding-dress-img.jpg);
+    background: url(../img/wedding-dress-img.jpg);
     background-size: cover;
     margin: auto;
 
@@ -119,7 +119,7 @@ padding-top: 100px;
 }
 .com-laundry-serv-img{
     height: 420px;
-    background: url(/assest/img/comm-laundry-img.jpg);
+    background: url(../img/comm-laundry-img.jpg);
     background-size: cover;
 }
 
