@@ -116,27 +116,6 @@ padding-top: 100px;
 }
 
 
-@media (max-width: 400px) {
-
-.hero-circle{
-    content: "";
-    height: 250px;
-    width: 250px;
-    background-color: #fff;
-    border-radius: 50%;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-}
-
-.hero-circle img{
-    margin-top: -73px;
-    margin-left: -40px;
-}
-
-.btns{
-    margin-top: 2rem;
-}
 
 
 .com-laundry-service{
@@ -342,3 +321,26 @@ color: #000;
         background-size: cover;
     }
 }
+
+@media (max-width: 400px) {
+
+    .hero-circle{
+        content: "";
+        height: 250px;
+        width: 250px;
+        background-color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .hero-circle img{
+        margin-top: -73px;
+        margin-left: -40px;
+    }
+    
+    .btns{
+        margin-top: 2rem;
+    }
+}    
