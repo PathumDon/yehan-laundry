@@ -6,7 +6,15 @@
 .navbar a{
 text-decoration: none;
 color: #666;
+
 }
+
+#navbar{
+position: sticky;
+top: 0;
+z-index: 99;
+}
+
 .hero{
 
     background-color:#0890F1 ;
@@ -150,6 +158,7 @@ padding-top: 100px;
 
 .our-service-items{
 padding-top: 20px;
+border: 1px solid #fff;
 }
 .our-service-items:hover{
 border: 1px solid #FFD06D;
@@ -266,7 +275,9 @@ background-color: #054675;
     justify-content: center;
     margin-bottom: 0;
 }
-
+.read-more-comment-text{
+    text-decoration: none;
+}
 #map {
     height: 100%; /* The height is 400 pixels */
     width: 100%; /* The width is the width of the web page */
