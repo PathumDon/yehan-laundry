@@ -40,6 +40,7 @@ background-color: #FFD06D;
 margin-right: 1rem;
 border: 3px solid #FFD06D;
 
+
 }
 
 .btn-message:hover{
@@ -51,6 +52,25 @@ border: 3px solid #FFD06D;
     border: 3px solid #fff;
     color: #fff;
 }
+
+.btn-callnow a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-message a{
+    text-decoration: none;
+    color: #020514;
+
+}
+
+.btn-message a:hover{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
 
 .btn-callnow:hover{
     background-color: #054675;
@@ -244,6 +264,11 @@ margin-right: 1rem;
     border-radius: 0;
     color: #2FCCC0;
     background-color: #fff;
+}
+
+.com-laundry-service button a{
+    text-decoration: none;
+    color: #2FCCC0;
 }
 
 .btn-comm-callnow:hover{
