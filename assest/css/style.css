@@ -223,6 +223,12 @@ margin-right: 1rem;
     border-radius: 0;
     color: #2FCCC0;
     background-color: #fff;
+    text-decoration: none;
+}
+
+.btn-comm-callnow a{
+    color: #2FCCC0;
+    text-decoration: none;
 }
 
 .com-laundry-serv-text{
@@ -273,6 +279,7 @@ margin-right: 1rem;
 
 .btn-comm-callnow:hover{
 background-color: #054675;
+color: #fff;
 }
 .testimonial{
     background-color: #F3F3F3;
@@ -284,6 +291,7 @@ background-color: #054675;
     border-radius: 8px 8px 8px 8px;
     width: 30%;
     margin-bottom: 1rem;
+    height: 400px;
 }
 
 .review-card img{
